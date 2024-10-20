@@ -1,0 +1,27 @@
+.course-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.course-item-container {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-img {
+  margin-right: 5px;
+  width: 50px;
+}
+.logo-heading {
+  font-family: roboto;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1e293b;
+}
+.nav-link {
+  text-decoration: none;
+}

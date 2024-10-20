@@ -1,0 +1,59 @@
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+.error-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+.failure-img {
+  height: 350px;
+}
+.failure-heading-text {
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 600;
+  color: #475569;
+}
+.failure-description {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #64748b;
+}
+.retry-btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #4656a1;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.course-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 30px 0px;
+}
+.heading {
+  font-family: roboto;
+  font-size: 28px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-left: 100px;
+}
+.course-list-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
